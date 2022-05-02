@@ -31,7 +31,7 @@ class _PaginaInicialState extends State<PaginaInicial> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Listado de articulos"),
+          title: Text("Listado de articulos v2"),
         ),
         body: GridView.builder(
           itemCount: images.length,
